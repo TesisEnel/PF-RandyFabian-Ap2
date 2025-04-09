@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">FluentPath</string>
+    <string name="gramatica_list_title">Gramáticas</string>
+    <string name="vocabulario_list_title">Vocabulario</string>
+    <string name="no_gramaticas_found">No se encontraron gramáticas</string>
 </resources>

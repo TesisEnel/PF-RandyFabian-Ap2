@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.FluentPath" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Color principal (ActionBar) -->
+        <item name="android:colorPrimary">@color/splash_green</item>
+        <item name="android:statusBarColor">@color/splash_green</item> <!-- #38CC74 -->
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Color oscuro (StatusBar) -->
+        <item name="android:colorPrimaryDark">@color/primary_blue</item>
 
-    <style name="Theme.FluentPath" parent="android:Theme.Material.Light.NoActionBar" />
+        <!-- Color de acento (botones, switches) -->
+        <item name="android:colorAccent">@color/primary_blue</item>
+
+        <!-- Fondo de pantalla -->
+        <item name="android:windowBackground">@color/splash_green</item>
+
+        <!-- Colores de texto -->
+        <item name="android:textColorPrimary">@color/dark_text</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <color name="splash_green">#38CC74</color>
 </resources>
