@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "edu.ucne.fluentpath"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "edu.ucne.fluentpath"
@@ -116,4 +116,34 @@ dependencies {
     implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
     implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+
+    // DataStore
+    implementation ("androidx.datastore:datastore-preferences:1.0.0")
+
+    // Compose
+    implementation ("androidx.navigation:navigation-compose:2.7.4")
+    implementation ("androidx.hilt:hilt-navigation-compose:1.1.0")
+
+    implementation("io.coil-kt:coil-compose:2.4.0")
+
+    // Versión estable más reciente de Compose
+    implementation ("androidx.activity:activity-compose:1.8.0")
+    implementation ("androidx.compose.material3:material3:1.2.0")
+
+    // Para Pull-to-Refresh (necesario)
+    implementation ("androidx.compose.material3:material3:1.2.0-rc01")
+
+    // Iconos
+    implementation ("androidx.compose.material:material-icons-extended:1.6.0")
+    implementation ("com.google.accompanist:accompanist-swiperefresh:0.27.0")
+    implementation("com.google.accompanist:accompanist-swiperefresh:0.27.0")
+
+    implementation ("androidx.compose.runtime:runtime-livedata:1.5.4")
+    implementation ("androidx.core:core-ktx:1.10.1")
+    implementation ("androidx.compose.material3:material3:1.2.0")
+    implementation("androidx.compose.material:material-icons-extended")
+
+    implementation ("com.google.android.exoplayer:exoplayer:2.18.1")
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
+
 }
